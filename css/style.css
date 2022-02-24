@@ -1,0 +1,78 @@
+
+body{
+    font-family: Roboto;
+}
+.body{
+    background: #E5E5E5;
+    margin: 0;
+}
+.main-container{
+    background: #FFF;
+    border-radius: 20px;
+    width: 600px !important;
+}
+.top-container{
+   margin: 20px 0px;
+}
+.person-img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+.features{
+    height: 100%;
+    width: 100%;
+}
+.top-features{
+    background-image: url(../assets/Union.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 84% 20%;
+    padding: 5px 0px 0px 0px;
+    line-height: 35px;
+    letter-spacing: 3%;
+    margin-top: 0px;
+    background-position: top center;
+    position: relative; 
+}
+
+.feature-title{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center !important;
+    line-height: 20px;
+    letter-spacing: 3%;
+}
+.features-msg{
+    line-height: 20px;
+    letter-spacing: 3%;
+}
+.schedule-btn{
+border: 1px solid #FEC72F;
+border-radius: 20px;
+padding: 5px 10px;
+}
+.unsubscribe-btn{
+background: #FEC72F;
+color: white;
+border-radius: 20px;
+border: none;
+padding: 5px 10px;
+}
+@media only screen and (max-width: 767px){
+    .welcome-note, .welcome-note-image{
+        padding: 50px 60px 0px 60px;
+    }
+    .person-img{
+        width: 90%;
+        height: 350px;
+    }
+    .top-features{
+        background-image: none;
+    }
+    .features-msg{
+        padding: 0px 60px;
+    }
+}
